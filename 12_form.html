@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form styling </title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background: #28a74533;
+            color: black;
+            line-height: 1.8;
+            
+
+        }
+        a{
+            text-decoration: none;
+        }
+        #container{
+            margin: 30px auto;
+            max-width: 400px;
+            border:2px solid  black;
+            background: white;
+        }
+        .form-wrap{
+            background: #fff;
+            padding: 15px 25px;
+
+        }
+        .form-wrap h1{
+            color: #28a745;
+            text-align: center;
+        }
+        .form-wrap p{
+            text-align: center;
+        }
+
+        .form-wrap .form-group{
+            margin-top: 15px;
+        }
+        .form-wrap .form-group label{
+            display: block;
+            color: #666;
+        }
+        .form-wrap .form-group input{
+            width: 100%;
+            padding: 10px;
+            border: #ddd 1px solid;
+            border-radius: 5px;
+        }
+        .form-wrap button{
+            background:  #28a745;
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+            font-weight: 1000;
+        }
+        .form-wrap .bottom-text{
+            font-size: 13px;
+            margin-top: 20px;
+        }
+        footer{
+            text-align: center;
+            margin-top: 10px;
+        }
+        footer a{
+            color:  #28a745;
+        }
+       
+        
+        
+
+        
+     
+        
+    
+        
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="form-wrap">
+        <h1>Sign Up</h1>
+        <P>U can sign up here</P>
+    <form>
+        <div class="form-group">
+            <label for="First-Name">Name</label>
+            <input type="text" name="First Name" id="First-Name"/>
+        </div>
+        <div class="form-group">
+            <label for="Last-Name">Registration Number</label>
+            <input type="text" name="Last Name" id="Last-Name"/>
+        </div>
+        <div class="form-group">
+            <label for="email">email</label>
+            <input type="text" name="email" id="email"/>
+        </div>
+        <div class="form-group">
+            <label for="password">Phone Number</label>
+            <input type="text" name="password" id="password"/>
+        </div>
+        <br><br>
+        <button type="submit" class="btn">Sign Up</button>
+        <p class="bottom-text">
+            <br>
+            By clicking you agree to
+            <br>
+            <a href="#">Terms And Privacy </a> 
+        </p>
+        
+    </form>
+    </div>
+    <footer>
+    <p>Already Have an account? <a href="#">login here
+    </a></p>
+    </footer>
+    </div>
+        
+
+    
+</body>
+</html>
